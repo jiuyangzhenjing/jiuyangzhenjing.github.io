@@ -15,7 +15,7 @@ module.exports = {
             link: '/read/'
         }],
         sidebar: {
-            "/knowledge/": [{
+            "/LTYBLSSFZGRSJWSYMYZH/": [{
                 title: 'js',
                 collapsable: false,
                 children: [
