@@ -1,11 +1,11 @@
 module.exports = {
-    base: "/share/",
+    base: "/LGTJ_YBLSS_WSYMYSJ_ZH/",
     host: "http://jiuyangzhenjing.github.io",
     title: '舒克张的个人博客',
     description: "我不想给自己打标签，也不想给自己划界线。",
     // theme: 'vuepress-theme-xx',
     // theme: '@vuepress/vue',
-    dest: '/Users/lz/GitHub/jiuyangzhenjing.github.io/share',
+    dest: '/Users/lz/GitHub/jiuyangzhenjing.github.io/LGTJ_YBLSS_WSYMYSJ_ZH',
     themeConfig: {
         nav: [{
             text: '技术',
