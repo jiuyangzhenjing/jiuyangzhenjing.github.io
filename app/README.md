@@ -9,6 +9,6 @@ features:
   - title: 目录
     details: 不仅仅是技术。
   - title: 有趣的灵魂们
-    details: 为你也为我自己，万里挑一。
+    details: <div>为你也为我自己，万里挑一</div>。
 footer: MIT Licensed | Copyright © 2019-present schuker anthony ZL
 ---
