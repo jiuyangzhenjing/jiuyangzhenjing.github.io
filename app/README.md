@@ -2,7 +2,7 @@
 home: true
 heroImage: /hdImg_085538096a7e8d95eb6d464422974be91534115232497.jpg
 actionText: 最新博客
-actionLink: /public/knowledge/menu.html
+actionLink: /public/menu.html
 features:
   - title: 关于我
     details: 每个人都有很多标签，我最好工农之身份。
