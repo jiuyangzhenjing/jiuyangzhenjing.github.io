@@ -5,7 +5,7 @@ actionText: 最新博客
 actionLink: /public/menu.html
 features:
   - title: 关于我
-    details: 每个人都有很多标签，我最好工农之身份。
+    details: 任之鸣，不任之安。
   - title: 目录
     details: 不仅仅是技术。
   - title: 有趣的灵魂们
