@@ -1,0 +1,27 @@
+{
+    "name": "jiuyangzhenjing.github.io",
+    "version": "2.0.1",
+    "description": "blog2.0系统",
+    "main": "index.js",
+    "directories": {
+        "doc": "app"
+    },
+    "scripts": {
+        "dist": "vuepress build app"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jiuyangzhenjing/jiuyangzhenjing.github.io.git"
+    },
+    "author": "分享则可确保长久",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jiuyangzhenjing/jiuyangzhenjing.github.io/issues"
+    },
+    "homepage": "https://github.com/jiuyangzhenjing/jiuyangzhenjing.github.io#readme",
+    "devDependencies": {
+        "@webpack-cli/init": "^0.1.3",
+        "ws": ">=1.1.1",
+        "lodash": ">=4.17.11"
+    }
+}

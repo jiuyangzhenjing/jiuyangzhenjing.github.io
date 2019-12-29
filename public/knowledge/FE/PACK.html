@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>有那么多介绍打包工具的教程了，为什么要在自己写一个 | 舒克张的个人博客</title>
+    <meta name="description" content="我不想给自己打标签，也不想给自己划界线。">
+    
+    
+    <link rel="preload" href="/public/assets/css/0.styles.a024ae59.css" as="style"><link rel="preload" href="/public/assets/js/app.b135b062.js" as="script"><link rel="preload" href="/public/assets/js/5.56d0f45c.js" as="script"><link rel="prefetch" href="/public/assets/js/10.bd02f712.js"><link rel="prefetch" href="/public/assets/js/11.6dfdd2e2.js"><link rel="prefetch" href="/public/assets/js/12.25753dd4.js"><link rel="prefetch" href="/public/assets/js/2.67348f3f.js"><link rel="prefetch" href="/public/assets/js/3.f02b98ba.js"><link rel="prefetch" href="/public/assets/js/4.109a7c6b.js"><link rel="prefetch" href="/public/assets/js/6.42cd7550.js"><link rel="prefetch" href="/public/assets/js/7.80bda064.js"><link rel="prefetch" href="/public/assets/js/8.661652de.js"><link rel="prefetch" href="/public/assets/js/9.4f7a4433.js">
+    <link rel="stylesheet" href="/public/assets/css/0.styles.a024ae59.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/public/" class="home-link router-link-active"><!----> <span class="site-name">舒克张的个人博客</span></a> <div class="links" style="max-width:nullpx;"><!----> <nav class="nav-links can-hide"><div class="nav-item"><a href="/public/knowledge/" class="nav-link router-link-active">技术</a></div><div class="nav-item"><a href="/public/read/" class="nav-link">创作与共享</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/public/knowledge/" class="nav-link router-link-active">技术</a></div><div class="nav-item"><a href="/public/read/" class="nav-link">创作与共享</a></div> <!----></nav>  <ul class="sidebar-links"><li><div class="sidebar-group first"><p class="sidebar-heading open"><span>js</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/public/knowledge/FE/PACK.html" class="active sidebar-link">打包工具</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/public/knowledge/FE/PACK.html#使用webpack打包js" class="sidebar-link">使用webpack打包js</a></li></ul></li><li><a href="/public/knowledge/FE/Vue.js-1.html" class="sidebar-link">Vue源码解析（1）</a></li><li><a href="/public/knowledge/FE/Grid.html" class="sidebar-link">grid布局</a></li><li><a href="/public/knowledge/FE/PHP-array2string.html" class="sidebar-link">PHP-将数组拼接成字符串</a></li><li><a href="/public/knowledge/FE/PHP-timeFunction.html" class="sidebar-link">php处理时间的函数-time/date</a></li><li><a href="/public/knowledge/nodejs_statend.html" class="sidebar-link">koa基础</a></li></ul></div></li></ul> </div> <div class="page"> <div class="content"><h1 id="有那么多介绍打包工具的教程了，为什么要在自己写一个"><a href="#有那么多介绍打包工具的教程了，为什么要在自己写一个" aria-hidden="true" class="header-anchor">#</a> 有那么多介绍打包工具的教程了，为什么要在自己写一个</h1> <p>毕业一年半，我在公司负责了各种各样不同的业务，使用过各种各样不同的技术，从开始进到公司上级让我做什么我就做什么，到后来逐渐有了自己的思路，自己摸索着去实践。先后负责过web开发(从17年毕业之前两个月进入公司到18年2月这大概一年的时间中，我先后使用过1.jsp+原生js,手写html页面,jquery-&gt;2.使用使用angularjs,vuejs开发页面，requirejs管理-&gt;3.使用webpack+vue-cli进行开发-&gt;4.进行原生app开发,独立完成一个项目90,3-11月我又进行了(5.使用angular4+electron开发桌面项目-&gt;5.使用vue+iview+webpack进行新项目开发
+),11月底我被抽调到了新的项目组，参加java后台(ssm)的开发，在这个过程中，我被管理过，尽力自我管理，做过小主管管理过别人，开过‘高层会’讨论过公司的命运问题。也经历过公司发不出工资的时刻，连续三个月加班到一点，遇到过各种沟通问题有开心也有郁闷的时刻。我很感激能在一个让我不断试错的公司一直坚持着干了这将近两年的时间，经历过这些丰富的工作过程。但是这毕竟不是长久之计，我始终是一个野路子，就像打仗没有正经装备和战术。这些道理我也知道，我一直在问自己，你到想干什么。我也一直不断的回答是前端，但是，我又在不断地问自己，怎么定义前端？写页面是不是前端，写app的时候是不是前端，搭建项目的时候是不是前端？我想说这些都是，做前端，这些就是都要掌握。于是我又问那这些掌握的都怎么样，我最后给自己的回答是，每一个都不能算得上优秀，甚至大部分都在70-80分之间，写项目的时候需要查很多资料，百度，google，不断调试。没有一个我敢说我可以达到深刻理解，所掌握的也不过是转过几手的api而已。这不是长久之计，这样下去再停不几年，就废了。</p> <p>我说了这么多，也算是吹了牛皮了，不知道我又没有说出重点，就是，人必须要有核心竞争力，不然什么也干不长远。</p> <p>所以，我写这文章，只是想激励自己，不忘初心，走的更远。</p> <h1 id="这篇文章将会包括多少内容"><a href="#这篇文章将会包括多少内容" aria-hidden="true" class="header-anchor">#</a> 这篇文章将会包括多少内容</h1> <p>这篇文章，会包括gulp的使用，webpack的深度分析和使用，以及对全新的打包工具的浅析。</p> <h1 id="不说什么"><a href="#不说什么" aria-hidden="true" class="header-anchor">#</a> 不说什么</h1> <p>这篇文章不会介绍什么是打包工具，问什么需要打包工具，因为都9102年了，相比于8102，7102都过去一两千年了，更何况和文章本身内容无关的东西就不说了吧。</p> <h1 id="首先认识大明星-webpakc"><a href="#首先认识大明星-webpakc" aria-hidden="true" class="header-anchor">#</a> 首先认识大明星-webpakc</h1> <p>webpack从诞生之日起，就靠着四个功能打天下，分别是：</p> <ul><li><p>entry</p> <blockquote><p>这是webpack处理文件的入口。</p></blockquote> <p>entry有几个特点：</p> <ul><li>某段代码的入口
+通过这个入口webpack能够知道这段代码依赖于谁，import和require的内容，webpakc能把他的依赖‘送给他’。</li> <li>打包的入口
+webpack通过这个入口就能知道，去哪个文件开始处理，使用那些依赖。</li> <li>单个或多个
+单个入口和多个入口的区别在于，单页面主要用到但入口，多页面主要用多入口。</li></ul> <div class="language-javascript extra-class"><pre class="language-javascript"><code>    <span class="token comment">/***
+    * module.exports 是common的模块语法，webpack遵循这个语法。
+    * entry 就是打包入口，这里的文件名称不是个定的格式，保证能找到这个文件就行。
+    * entry也可以是一个数组，['index.js','vendor.js'];
+    * entry也可以写成{index:'index.js'}的形式，这就相当于个文件加了别名，在打包的过程中可以继续识别这个文件。
+    * 待续
+    */</span>
+    module<span class="token punctuation">.</span>exports <span class="token operator">=</span><span class="token punctuation">{</span>
+        entry<span class="token punctuation">:</span> <span class="token string">'index.js'</span>
+    <span class="token punctuation">}</span>
+</code></pre></div></li></ul> <hr> <ul><li><p>output</p> <blockquote><p>有入口就会有输出，在输出里能够规定其处理好的文件存放的位置和名称。</p></blockquote> <p>output有几个对应于entry的功能:</p> <ul><li>打包成文件bundle</li> <li>一个或多个</li> <li>自定义规则</li></ul> <div class="language-javascript extra-class"><pre class="language-javascript"><code>    <span class="token comment">/***
+    * output是一个对象，拥有一个必须指定的filename
+    */</span>
+    module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+        entry<span class="token punctuation">:</span> <span class="token string">'index.js'</span><span class="token punctuation">,</span>
+        output<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            filename<span class="token punctuation">:</span> <span class="token string">'index.min.js'</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+</code></pre></div><div class="language-javascript extra-class"><pre class="language-javascript"><code>    <span class="token comment">/***
+    * 当entry是多入口的时候
+    * output 就可以使用自定义规则
+    * name就是entry中的文件名称，hash：5是指使用MD5方式对文件进行加密，生成一个版本号。
+    */</span>
+    module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+        entry<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            index<span class="token punctuation">:</span> <span class="token string">'index.js'</span><span class="token punctuation">,</span>
+            vendor<span class="token punctuation">:</span> <span class="token string">'vendor.js'</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        output<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            filename<span class="token punctuation">:</span> <span class="token string">'[name].min.[hash:5].js'</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+</code></pre></div></li></ul> <hr> <ul><li><p>loaders</p> <blockquote><p>有了loaders，webpack就获得了能够处理除了js的另外一些文件的的能力。这里可以理解为官方外挂。</p></blockquote> <ul><li>处理文件</li> <li>转化为模块（转化为js能够处理的module）</li></ul> <div class="language-javascript extra-class"><pre class="language-javascript"><code>    <span class="token comment">/***
+    * module就是指对应生成一个模块可以被js使用。
+    * rules就是处理每一个模块。
+    * rules中每一个项对应处理一种文件的‘方法’，test是指文件的明明规则，use就是loaders。
+    * 常见的loaders有：编译相关的loaders(babel-loader,ts-loader),样式相关的loaders(style-loader,css-loader,less-loader,postcss-loader),文件相关(file-loader,url-loader)
+    */</span>
+    module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+        module<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            rules<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+                <span class="token punctuation">{</span>
+                    test<span class="token punctuation">:</span> <span class="token regex">/\.css$/</span><span class="token punctuation">,</span>
+                    use<span class="token punctuation">:</span> <span class="token string">'css-loader'</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">]</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+</code></pre></div></li></ul> <hr> <ul><li><p>plugins</p> <blockquote><p>还有一些肯定是需要但是不在核心功能里面的一些不可少的功能，但又不能让自己看起来是个大胖子怎么办呢？就做成plugins吧，真棒！</p></blockquote> <ul><li>参与打包过程</li> <li>打包优化和压缩</li> <li>配置编译时的变量</li> <li>webpack本身也是基于plugins来完成打包的</li></ul> <div class="language-javascript extra-class"><pre class="language-javascript"><code>    <span class="token comment">/***
+    * 常用的插件有：优化相关(CommonsChunkPlugin,UglifyjsWebpackPlugin),功能相关(ExtractTextWebpackPlugin,HtmlWebpackPlugin,HotModuleReplacementPlugin,CopyWebpackPlugin)
+    */</span>
+    <span class="token keyword">const</span> webpack <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'webpack'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+        plugins<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+            <span class="token keyword">new</span> <span class="token class-name">webpack<span class="token punctuation">.</span>optimize<span class="token punctuation">.</span>UglifyJsPlugin</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+</code></pre></div></li></ul> <h2 id="使用webpack打包js"><a href="#使用webpack打包js" aria-hidden="true" class="header-anchor">#</a> 使用webpack打包js</h2> <p>webpack的使用有两种方式，一种是使用命令行进行打包操作，一种是使用配置文件进行打包操作。
+实际使用的时候我们可能会写各种各样的代码，其中不免会有规范的冲突，不可能每个团队使用的都是common或者是es6。不用担心，webpack能够处理各种各样的规范。</p> <ul><li>es6</li></ul> <div class="language-javascript extra-class"><pre class="language-javascript"><code>    <span class="token comment">//app.js</span>
+    <span class="token keyword">import</span> sum <span class="token keyword">from</span> <span class="token string">'./sum'</span><span class="token punctuation">;</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token function">sum</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><div class="language-javascript extra-class"><pre class="language-javascript"><code>    <span class="token comment">//sum.js</span>
+    <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span><span class="token punctuation">(</span>m<span class="token punctuation">,</span>n<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> m<span class="token operator">+</span>n<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+</code></pre></div><ul><li>common</li></ul> <div class="language-javascript extra-class"><pre class="language-javascript"><code>    <span class="token comment">//app.js</span>
+    <span class="token keyword">var</span> sum <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'sum'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token function">sum</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><div class="language-javascript extra-class"><pre class="language-javascript"><code>    <span class="token comment">//sum.js</span>
+    module<span class="token punctuation">.</span><span class="token function-variable function">exports</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span>m<span class="token punctuation">,</span>n<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> m<span class="token operator">+</span>n<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+</code></pre></div><p>这样两种方式的代码，都可以使用webpack打包。</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code>    <span class="token comment">// webpack.config.js</span>
+    module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+        entry<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            app<span class="token punctuation">:</span> <span class="token string">'app.js'</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        output<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            filename<span class="token punctuation">:</span> <span class="token string">&quot;[name].[hash:5].js&quot;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+</code></pre></div></div> <div class="page-edit"><!----> <div class="last-updated"><span class="prefix">编辑日期: </span> <span class="time">4/13/2019, 7:39:38 PM</span></div></div> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/public/knowledge/FE/Vue.js-1.html">
+          Vue源码解析（1）
+        </a>
+        →
+      </span></p></div> </div> <!----></div></div>
+    <script src="/public/assets/js/app.b135b062.js" defer></script><script src="/public/assets/js/5.56d0f45c.js" defer></script>
+  </body>
+</html>
